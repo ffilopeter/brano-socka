@@ -1,0 +1,11 @@
+Samotná hra sa nazýva Snake (had). Hráč ovláda hada pomocou šípiek na klávesnici. Cieľom hry je, aby sa had čo najdlhšie preživil a získal čo najväčší počet bodov.
+
+Hra sa hraje na štvorcovej hracej ploche, ktorá sa zobrazuje v okne prehliadača. Hracia plocha je tvorená mriežkou malých štvorcov, ktoré sa nazývajú bunky. Veľkosť hracej plochy a veľkosť buniek sa dajú upraviť v kóde hry.
+
+Hra začína s hadom, ktorý sa skladá z jednej bunky. Hráč ovláda pohyb hada pomocou šípiek na klávesnici. Hra sa pohybuje v reálnom čase, takže pohyb hada sa aktualizuje na obrazovke každých niekoľko desatín sekundy. Hráč musí navigovať hada po hracej ploche a získať bod, keď had zje kúsok jedla, ktorý sa zobrazuje ako červený štvorec. Keď had zje jedlo, jeho dĺžka sa zvýši o jednu bunku a nové jedlo sa zobrazí na inom mieste na hracej ploche.
+
+Hra pokračuje, kým had nenarazí do steny alebo do svojho tela. Ak had narazí do steny, objaví sa na opačnej strane hracej plochy. Ak had narazí do svojho tela, hra sa končí a hráč dostane výsledok, ktorý zodpovedá počtu bodov, ktoré získal.
+
+Hra je naprogramovaná pomocou JavaScriptu a využíva HTML5 canvas na vykresľovanie hracej plochy. Hráč môže upraviť niektoré parametre hry v kóde, ako je veľkosť hracej plochy a veľkosť buniek.
+
+Toto je základná implementácia hry, ktorá neobsahuje pokročilé funkcie, ako sú viaceré levely alebo zvukové efekty. Avšak je to dobrý východiskový bod pre vytvorenie vlastnej verzie hry Snake v JavaScripte.
